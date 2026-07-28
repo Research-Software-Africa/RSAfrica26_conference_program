@@ -68,7 +68,7 @@ def convert_csv_to_json(csv_filepath, json_filepath):
 # Example execution block
 if __name__ == "__main__":
     # Update these paths as needed for your project structure
-    input_csv = "program.csv"
-    output_json = "program.json"
+    input_csv = "data/program.csv"
+    output_json = "modify/program.json"
     
     convert_csv_to_json(input_csv, output_json)
