@@ -26,7 +26,7 @@ All times in this program are displayed in **South African Standard Time (SAST) 
 | Time | Length | Presentation | Presenter(s) | Type |
 |---|---|---|---|---|
 | 09:00–09:30 | 30 min | [Day 1 Welcoming Session](#paper-200) | Conference Organisers | Welcoming |
-| 09:30–10:00 | 30 min | [Day 1 Opening Plenary Address](#paper-201) | Invited Speaker | Keynote |
+| 09:30–10:00 | 30 min | [The only way to play the game is to change the rules; the RSSE Africa journey](#paper-100) | Anelda van der Walt | Keynote |
 
 ### Day 1 Workshop 1
 
@@ -51,9 +51,11 @@ All times in this program are displayed in **South African Standard Time (SAST) 
 
 ---
 
-#### Keynote. Title: Day 1 Opening Plenary Address {#paper-201}
+#### Keynote. Title: The only way to play the game is to change the rules; the RSSE Africa journey {#paper-100}
 
-**Presenter Name**: Invited Speaker
+**Presenter Name**: Anelda van der Walt
+
+**Abstract**: This keynote reflects on the history of RSSE Africa, what the community has built, and the lessons learned from what worked, what did not, and why. It considers how research software communities in Africa can move from short-term activity to long-term impact through sustainable research software practices and software-creating communities. Looking ahead, the talk argues that visibility, advocacy, and diplomacy will be at least as important in the trajectory of African research software as the technical activity of writing code, especially as research software becomes increasingly shaped by artificial intelligence.
 
 ---
 
@@ -182,7 +184,7 @@ This presentation will share practical lessons for designing inclusive training 
 | Time | Length | Presentation | Presenter(s) | Type |
 |---|---|---|---|---|
 | 09:00–09:30 | 30 min | [Day 2 Welcoming Session](#paper-202) | Conference Organisers | Welcoming |
-| 09:30–10:15 | 45 min | [The only way to play the game is to change the rules; the RSSE Africa journey](#paper-100) | Anelda van der Walt | Keynote |
+| 09:30–10:00 | 30 min | [Day 2 Opening Plenary Address](#paper-201) | TBC | Keynote |
 
 ### Session 2A: AI & Emerging Tools
 
@@ -214,11 +216,11 @@ This presentation will share practical lessons for designing inclusive training 
 
 ---
 
-#### Keynote. Title: The only way to play the game is to change the rules; the RSSE Africa journey {#paper-100}
+#### Keynote. Title: Day 2 Opening Plenary Address {#paper-201}
 
-**Presenter Name**: Anelda van der Walt
+**Presenter Name**: TBC
 
-**Abstract**: This keynote reflects on the history of RSSE Africa, what the community has built, and the lessons learned from what worked, what did not, and why. It considers how research software communities in Africa can move from short-term activity to long-term impact through sustainable research software practices and software-creating communities. Looking ahead, the talk argues that visibility, advocacy, and diplomacy will be at least as important in the trajectory of African research software as the technical activity of writing code, especially as research software becomes increasingly shaped by artificial intelligence.
+**Abstract**: TBC
 
 ---
 
