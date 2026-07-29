@@ -2,7 +2,7 @@
 title: "RSAfrica26 Conference Program"
 subtitle: "1st Research Software Africa Conference"
 author: "RSAfrica26 Organising Committee"
-date: "2026-08-25"
+date: "2026-07-29"
 format:
   html:
     theme: cosmo

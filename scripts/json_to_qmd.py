@@ -4,12 +4,11 @@
 
 import json
 import os
+from datetime import datetime # Added import for current datetime
 
 def group_by_session(items):
     """
     Groups consecutive items chronologically by SESSION_TITLE and Session Chair.
-    Items with no session title and no session chair are grouped together 
-    with empty strings.
     """
     sessions = []
     for item in items:
@@ -29,9 +28,7 @@ def group_by_session(items):
 def build_rsafrica_qmd(json_file_path, qmd_file_path):
     """
     Parses program.json and generates a styled Quarto markdown file (.qmd)
-    aligned with the style structure of rseaa.org/rsaa25_program,
-    dividing the schedule into session blocks with designated Session Chairs,
-    while omitting headers for unscheduled/ungrouped session blocks.
+    including a dynamically computed 'date' field representing the build date.
     """
     if not os.path.exists(json_file_path):
         print(f"Error: {json_file_path} not found.")
@@ -88,12 +85,15 @@ def build_rsafrica_qmd(json_file_path, qmd_file_path):
         "welcoming": "Welcoming"
     }
 
-    # Start Quarto front-matter configuration
-    qmd_content = """---
+    # Automatically fetch the current date at runtime (Format: YYYY-MM-DD)
+    current_build_date = datetime.now().strftime("%Y-%m-%d")
+
+    # Start Quarto front-matter configuration using python f-string
+    qmd_content = f"""---
 title: "RSAfrica26 Conference Program"
 subtitle: "1st Research Software Africa Conference"
 author: "RSAfrica26 Organising Committee"
-date: "2026-08-25"
+date: "{current_build_date}"
 format:
   html:
     theme: cosmo
@@ -103,7 +103,7 @@ format:
     anchor-sections: true
 ---
 
-::: {.callout-note}
+::: {{.callout-note}}
 ### Timezone Notice
 All times in this program are displayed in **South African Standard Time (SAST) / UTC +2**.
 :::
