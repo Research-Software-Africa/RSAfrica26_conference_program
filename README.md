@@ -10,7 +10,7 @@ scripts/csv_to_json.py = converts Microsoft CMT data to json format
 
 output/program.json = file created from CMT export - check diffs for changes to schedule items
 
-scripts/csv_to_json.py = converts Microsoft CMT data to json format
+scripts/csv_to_json.py = converts schedule information in json format to qmd for rendering
 
 output/program.qmd = file created from json, ready to be rendered by Quarto 
 
