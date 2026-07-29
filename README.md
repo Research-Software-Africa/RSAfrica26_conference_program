@@ -4,11 +4,13 @@ Program for the RSAfrica26 conference
 
 ## Files
 
-data/program.csv = file exported from Microsoft CMT (some columns removed, e.g. email addresses for privacy; some entries added manually)
+modify/program.csv = file exported from Microsoft CMT (some columns removed, e.g. email addresses for privacy; some entries added manually) - EDIT THIS FILE TO MAKE CHANGES
 
 scripts/csv_to_json.py = converts Microsoft CMT data to json format
 
-modify/program.json = file created from CMT export - ready to be manually edited as needed to capture program details and changes
+output/program.json = file created from CMT export - check diffs for changes to schedule items
 
+scripts/csv_to_json.py = converts Microsoft CMT data to json format
 
+output/program.qmd = file created from json, ready to be rendered by Quarto 
 
