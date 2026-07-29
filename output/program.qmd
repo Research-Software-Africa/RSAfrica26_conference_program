@@ -21,11 +21,23 @@ All times in this program are displayed in **South African Standard Time (SAST) 
 
 ## Day 1 – Tuesday 25 August
 
-| Time | Length | Session Title / Presentation | Presenter(s) | Type |
+### Day 1 Welcome and Keynote
+
+| Time | Length | Presentation | Presenter(s) | Type |
 |---|---|---|---|---|
 | 09:00–09:30 | 30 min | [Day 1 Welcoming Session](#paper-200) | Conference Organisers | Welcoming |
 | 09:30–10:00 | 30 min | [Day 1 Opening Plenary Address](#paper-201) | Invited Speaker | Keynote |
+
+### Day 1 Workshop 1
+
+| Time | Length | Presentation | Presenter(s) | Type |
+|---|---|---|---|---|
 | 10:00–11:30 | 90 min | [Beyond Interoperability: Hands-On Federated ML for Research Data Curation Infrastructure](#paper-104) | Arnab Mukherjee | Workshop |
+
+### Session 1: Community Building in Action
+
+| Time | Length | Presentation | Presenter(s) | Type |
+|---|---|---|---|---|
 | 11:45–12:05 | 20 min | [The RCP Discovery Internship Program: Building a Global Innovation Lab for Research Software](#paper-4) | Rowland Mosbergen | Presentation |
 | 12:05–12:25 | 20 min | [https://www.linkedin.com/in/emmanuel-ugwu-b58b80223](#paper-9) | Ugwu Nnamdi Emmanuel | Presentation |
 | 12:25–12:40 | 15 min | [From Contributor to Maintainer: Growing Community‑Led Open Source Research Software in Africa](#paper-10) | Fuad ALIPHATIC Adegoke | Demo/Showcase |
@@ -165,15 +177,27 @@ This presentation will share practical lessons for designing inclusive training 
 
 ## Day 2 – Wednesday 26 August
 
-| Time | Length | Session Title / Presentation | Presenter(s) | Type |
+### Day 2 Announcements & Keynote
+
+| Time | Length | Presentation | Presenter(s) | Type |
 |---|---|---|---|---|
 | 09:00–09:30 | 30 min | [Day 2 Welcoming Session](#paper-202) | Conference Organisers | Welcoming |
 | 09:30–10:15 | 45 min | [The only way to play the game is to change the rules; the RSSE Africa journey](#paper-100) | Anelda van der Walt | Keynote |
+
+### Session 2A: AI & Emerging Tools
+
+| Time | Length | Presentation | Presenter(s) | Type |
+|---|---|---|---|---|
 | 10:15–10:35 | 20 min | [Doing Science in the Age of AI, when the system isn’t built for you](#paper-6) | Seun Olufemi | Presentation |
 | 10:35–10:55 | 20 min | [Failure Prediction in AI Agent Pipelines: A Shift Toward More Reliable Research Automation](#paper-22) | Faith Sodipe | Presentation |
 | 10:55–11:15 | 20 min | [Governing Artificial Intelligence in Research Software Engineering](#paper-36) | Samuel Simango | Presentation |
 | 11:15–11:35 | 20 min | [Developing AI Guidelines for Infrastructure-as-a-Service Platforms](#paper-14) | Binjamin Barsch | Presentation |
 | 11:35–11:50 | 15 min | [A demonstration of an interpretive approach to machine learning with Orange Data Mining](#paper-23) | Dr Alette Schoon | Demo/Showcase |
+
+### Session 2B: Machine Learning Pipelines & Data Curation
+
+| Time | Length | Presentation | Presenter(s) | Type |
+|---|---|---|---|---|
 | 12:05–12:20 | 15 min | [Cleantweet: Pushing the Boundaries of NLP and Datamining for AI Access in Africa.](#paper-29) | Lare Adeola | Demo/Showcase |
 | 12:20–12:30 | 10 min | [The eLwazi (DSI) Platform: AI-Assisted Data Harmonization and Metadata Curation for Multi-Site Health Research in Africa](#paper-31) | Lyndon Zass | Presentation |
 | 12:30–12:50 | 20 min | [REDMANE: A Lightweight Ecosystem for Research Data Management Across Organisations and Diverse Data Types](#paper-5) | Rowland Mosbergen | Presentation |
@@ -446,18 +470,35 @@ This 10-minute product demo will showcase our product and our approach to reduci
 
 ### Track A
 
-| Time | Length | Session Title / Presentation | Presenter(s) | Type |
+#### Day 3 Welcome and Track Announcements
+
+| Time | Length | Presentation | Presenter(s) | Type |
 |---|---|---|---|---|
 | 09:00–09:10 | 10 min | [Day 3 Joint Welcoming Session](#paper-203) | Conference Organisers | Welcoming |
+
+#### Session 3A: Reproducibility, FAIR, and Open Research
+
+| Time | Length | Presentation | Presenter(s) | Type |
+|---|---|---|---|---|
 | 09:10–09:30 | 20 min | [Building Reproducible Genomic Analysis Pipelines for Enterococcus Surveillance in Resource-Constrained Research Environments](#paper-13) | Bill Clinton Aglomasa | Presentation |
 | 09:30–09:50 | 20 min | [Open Source Is Infrastructure: Why We Must Treat It That Way](#paper-27) | Gertrude Abagale | Presentation |
 | 09:50–10:10 | 20 min | [Open Science and Reproducibility: Strengthening Research Practices in Africa](#paper-37) | Precious Onyewuchi | Presentation |
 | 10:10–10:25 | 15 min | [Automating AMR Surveillance; A Resource-Efficient Pipeline for Genomic Discovery in Kenya](#paper-8) | Ogoti Duncan Mogire & University of Kabianga / American Society for Microbiology (ASM) | Demo/Showcase |
 | 10:25–10:40 | 15 min | [Stellar: An Offline-First Humanities Research Workbench for Citation, Qualitative Analysis, and Knowledge Graphs](#paper-15) | Midori Tamura | Demo/Showcase |
+
+#### Session 3B: Community, Collaboration, and Access
+
+| Time | Length | Presentation | Presenter(s) | Type |
+|---|---|---|---|---|
 | 10:55–11:15 | 20 min | [I Didn't Know I Could: Barriers to Research for Adults in Underrepresented Communities and the Organisations Already Closing the Gap](#paper-7) | Olushola Ogunkelu | Presentation |
 | 11:15–11:35 | 20 min | [No Lab, No Lecture Hall: Teaching Research Software Beyond the Institution](#paper-17) | Adejumo Adefisayo | Presentation |
 | 11:35–11:55 | 20 min | [Meta-valuation: A Self-Referential Mechanism for Valuing Diverse Research Contributions](#paper-18) | Dr Cooper Smout | Presentation |
 | 11:55–12:15 | 20 min | [On Building a Sustainable Research Software and HPC Training Pipeline in West Africa](#paper-35) | JAMES AFFUL | Presentation |
+
+#### Session 3C: Data, Demos, and Local Applications
+
+| Time | Length | Presentation | Presenter(s) | Type |
+|---|---|---|---|---|
 | 12:30–12:45 | 15 min | [Building Standardised Phenotype Data Collection Toolkits for African Research](#paper-26) | Katherine Elizabeth Johnston | Demo/Showcase |
 | 12:45–13:00 | 15 min | [Create Mobile Data Collection Applications](#paper-25) | Benson Muite | Demo/Showcase |
 
@@ -697,11 +738,28 @@ Developing mobile phone applications can be challenging and LambdaNative is a fr
 
 ### Track B
 
-| Time | Length | Session Title / Presentation | Presenter(s) | Type |
+#### Track B Orientation & Overview
+
+| Time | Length | Presentation | Presenter(s) | Type |
 |---|---|---|---|---|
 | 09:00–09:10 | 10 min | [Day 3 Track B Welcoming Session](#paper-204) | Conference Organisers | Welcoming |
+
+#### AI Sustainability Day Panel 1
+
+| Time | Length | Presentation | Presenter(s) | Type |
+|---|---|---|---|---|
 | 09:10–10:10 | 60 min | [AI Sustainability Day panel session 1 - Ethics, Decent Work, and "Fair Trade" AI](#paper-101) | TBC | Panel |
+
+#### AI Sustainability Day Panel 2
+
+| Time | Length | Presentation | Presenter(s) | Type |
+|---|---|---|---|---|
 | 10:25–11:25 | 60 min | [AI Sustainability Day panel session 1 - Environmental Impacts of Generative AI](#paper-102) | TBC | Panel |
+
+#### AI Sustainability Day Panel 3
+
+| Time | Length | Presentation | Presenter(s) | Type |
+|---|---|---|---|---|
 | 11:40–12:40 | 60 min | [AI Sustainability Day panel session 1 - Platform Decay, Copyrights, and Bias](#paper-103) | TBC | Panel |
 
 #### Presentation Details
@@ -740,15 +798,37 @@ Developing mobile phone applications can be challenging and LambdaNative is a fr
 
 ## Day 4 – Friday 28 August
 
-| Time | Length | Session Title / Presentation | Presenter(s) | Type |
+### Day 4 Morning Kick-off
+
+| Time | Length | Presentation | Presenter(s) | Type |
 |---|---|---|---|---|
 | 09:00–09:10 | 10 min | [Day 4 Welcoming Session](#paper-205) | Conference Organisers | Welcoming |
+
+### Session 4A: Skills, Career Paths, and Fellowships
+
+| Time | Length | Presentation | Presenter(s) | Type |
+|---|---|---|---|---|
 | 09:10–10:00 | 50 min | [The SSI Fellowship Without Borders: What Would Work, and What Would Not](#paper-33) | Oscar Seip (SSI/University of Manchester) & Deborah Udoh (EMBL) & Anelda van der Walt (University of Cape Town) | Panel |
 | 10:00–10:10 | 10 min | [Wrong Search, Right Career: Rethinking How We Attract Research Infrastructure Engineers](#paper-34) | Ijeoma Ezika | Presentation |
 | 10:10–10:20 | 10 min | [Training the Trainers: Community-Led Bioinformatics Training with Bioconductor Across Africa](#paper-11) | Laurah Nyasita Ondari | Presentation |
 | 10:20–10:30 | 10 min | [Got a Data Challenge? There's a Global Community for That: An Introduction to the Research Data Alliance (RDA)](#paper-12) | Trish Radotic | Presentation |
+
+### Session 4B: Low-Resource Workflow Adaptations
+
+| Time | Length | Presentation | Presenter(s) | Type |
+|---|---|---|---|---|
 | 10:45–10:55 | 10 min | [Bridging the Gap: Practical Approaches to Reproducible Bioinformatics Workflows in Low-Resource Settings](#paper-30) | Lilian Oluchi Nwagbara | Presentation |
+
+### Session 4C: Workshop
+
+| Time | Length | Presentation | Presenter(s) | Type |
+|---|---|---|---|---|
 | 11:30–13:00 | 90 min | [Meta-valuation Across Borders: A Cross-Community Experiment in Valuing Diverse Research Contributions](#paper-19) | Dr Cooper Smout | Workshop |
+
+### Closing Debrief and Celebration
+
+| Time | Length | Presentation | Presenter(s) | Type |
+|---|---|---|---|---|
 | 13:00–13:30 | 30 min | [Volunteer Debrief & Conference Creation Taskforce](#paper-206) | Conference Organisers | Workshop |
 
 ### Presentation Details

@@ -5,11 +5,33 @@
 import json
 import os
 
+def group_by_session(items):
+    """
+    Groups consecutive items chronologically by SESSION_TITLE and Session Chair.
+    Items with no session title and no session chair are grouped together 
+    with empty strings.
+    """
+    sessions = []
+    for item in items:
+        title = item['SESSION_TITLE']
+        chair = item['Session Chair']
+        
+        if sessions and sessions[-1]['title'] == title and sessions[-1]['chair'] == chair:
+            sessions[-1]['items'].append(item)
+        else:
+            sessions.append({
+                'title': title,
+                'chair': chair,
+                'items': [item]
+            })
+    return sessions
+
 def build_rsafrica_qmd(json_file_path, qmd_file_path):
     """
     Parses program.json and generates a styled Quarto markdown file (.qmd)
     aligned with the style structure of rseaa.org/rsaa25_program,
-    including internal anchor links for every presentation title.
+    dividing the schedule into session blocks with designated Session Chairs,
+    while omitting headers for unscheduled/ungrouped session blocks.
     """
     if not os.path.exists(json_file_path):
         print(f"Error: {json_file_path} not found.")
@@ -24,6 +46,7 @@ def build_rsafrica_qmd(json_file_path, qmd_file_path):
         item['DAY'] = str(item.get('DAY', '')).strip()
         item['TRACK'] = str(item.get('TRACK', 'Single')).strip()
         item['SESSION_TITLE'] = str(item.get('SESSION_TITLE', '')).strip()
+        item['Session Chair'] = str(item.get('Session Chair', '')).strip()
         item['START_TIME'] = str(item.get('START_TIME', '')).strip()
         item['END_TIME'] = str(item.get('END_TIME', '')).strip()
         item['CALC_DURATION'] = str(item.get('CALC_DURATION', '')).strip()
@@ -111,21 +134,30 @@ All times in this program are displayed in **South African Standard Time (SAST) 
             for track_name in sorted(tracks.keys()):
                 qmd_content += f"### {track_name}\n\n"
                 
-                # Overview table
-                qmd_content += "| Time | Length | Session Title / Presentation | Presenter(s) | Type |\n"
-                qmd_content += "|---|---|---|---|---|\n"
-                for item in tracks[track_name]:
-                    duration = f"{item['CALC_DURATION']} min" if item['CALC_DURATION'] else ""
-                    presenter = item['Q5 (Presenter(s) Name)'] or item['Primary Contact Author Name'] or ""
-                    presenter = presenter.replace('\n', ' & ')
-                    label = type_labels.get(item['Type'].lower(), item['Type'].capitalize())
+                # Group items within this track into session blocks
+                session_blocks = group_by_session(tracks[track_name])
+                
+                for session in session_blocks:
+                    # Only render header and chair metadata if the session title is defined
+                    if session['title']:
+                        qmd_content += f"#### {session['title']}\n\n"
+                        if session['chair']:
+                            qmd_content += f"**Session Chair:** {session['chair']}\n\n"
                     
-                    # Create internal link to the paper details section
-                    paper_id = item['Paper ID']
-                    linked_title = f"[{item['Paper Title']}](#paper-{paper_id})" if paper_id else item['Paper Title']
+                    qmd_content += "| Time | Length | Presentation | Presenter(s) | Type |\n"
+                    qmd_content += "|---|---|---|---|---|\n"
                     
-                    qmd_content += f"| {item['START_TIME']}–{item['END_TIME']} | {duration} | {linked_title} | {presenter} | {label} |\n"
-                qmd_content += "\n"
+                    for item in session['items']:
+                        duration = f"{item['CALC_DURATION']} min" if item['CALC_DURATION'] else ""
+                        presenter = item['Q5 (Presenter(s) Name)'] or item['Primary Contact Author Name'] or ""
+                        presenter = presenter.replace('\n', ' & ')
+                        label = type_labels.get(item['Type'].lower(), item['Type'].capitalize())
+                        
+                        paper_id = item['Paper ID']
+                        linked_title = f"[{item['Paper Title']}](#paper-{paper_id})" if paper_id else item['Paper Title']
+                        
+                        qmd_content += f"| {item['START_TIME']}–{item['END_TIME']} | {duration} | {linked_title} | {presenter} | {label} |\n"
+                    qmd_content += "\n"
                 
                 # Presentation details for the current track
                 qmd_content += "#### Presentation Details\n\n"
@@ -135,7 +167,6 @@ All times in this program are displayed in **South African Standard Time (SAST) 
                     presenter = presenter.replace('\n', ' & ')
                     paper_id = item['Paper ID']
                     
-                    # Define custom anchor for details heading
                     anchor = f" {{#paper-{paper_id}}}" if paper_id else ""
                     qmd_content += f"##### {label}. Title: {item['Paper Title']}{anchor}\n\n"
                     
@@ -151,21 +182,30 @@ All times in this program are displayed in **South African Standard Time (SAST) 
             qmd_content += ":::\n\n" # Close tabset
             
         else:
-            # Overview table for single-track days
-            qmd_content += "| Time | Length | Session Title / Presentation | Presenter(s) | Type |\n"
-            qmd_content += "|---|---|---|---|---|\n"
-            for item in day_items:
-                duration = f"{item['CALC_DURATION']} min" if item['CALC_DURATION'] else ""
-                presenter = item['Q5 (Presenter(s) Name)'] or item['Primary Contact Author Name'] or ""
-                presenter = presenter.replace('\n', ' & ')
-                label = type_labels.get(item['Type'].lower(), item['Type'].capitalize())
+            # Group items for single-track days into session blocks
+            session_blocks = group_by_session(day_items)
+            
+            for session in session_blocks:
+                # Only render header and chair metadata if the session title is defined
+                if session['title']:
+                    qmd_content += f"### {session['title']}\n\n"
+                    if session['chair']:
+                        qmd_content += f"**Session Chair:** {session['chair']}\n\n"
                 
-                # Create internal link to the paper details section
-                paper_id = item['Paper ID']
-                linked_title = f"[{item['Paper Title']}](#paper-{paper_id})" if paper_id else item['Paper Title']
+                qmd_content += "| Time | Length | Presentation | Presenter(s) | Type |\n"
+                qmd_content += "|---|---|---|---|---|\n"
                 
-                qmd_content += f"| {item['START_TIME']}–{item['END_TIME']} | {duration} | {linked_title} | {presenter} | {label} |\n"
-            qmd_content += "\n"
+                for item in session['items']:
+                    duration = f"{item['CALC_DURATION']} min" if item['CALC_DURATION'] else ""
+                    presenter = item['Q5 (Presenter(s) Name)'] or item['Primary Contact Author Name'] or ""
+                    presenter = presenter.replace('\n', ' & ')
+                    label = type_labels.get(item['Type'].lower(), item['Type'].capitalize())
+                    
+                    paper_id = item['Paper ID']
+                    linked_title = f"[{item['Paper Title']}](#paper-{paper_id})" if paper_id else item['Paper Title']
+                    
+                    qmd_content += f"| {item['START_TIME']}–{item['END_TIME']} | {duration} | {linked_title} | {presenter} | {label} |\n"
+                qmd_content += "\n"
             
             # Presentation details for single-track days
             qmd_content += "### Presentation Details\n\n"
@@ -175,7 +215,6 @@ All times in this program are displayed in **South African Standard Time (SAST) 
                 presenter = presenter.replace('\n', ' & ')
                 paper_id = item['Paper ID']
                 
-                # Define custom anchor for details heading
                 anchor = f" {{#paper-{paper_id}}}" if paper_id else ""
                 qmd_content += f"#### {label}. Title: {item['Paper Title']}{anchor}\n\n"
                 
