@@ -23,29 +23,29 @@ All times in this program are displayed in **South African Standard Time (SAST) 
 
 | Time | Length | Session Title / Presentation | Presenter(s) | Type |
 |---|---|---|---|---|
-| 09:00–09:30 | 30 min | Conference Organisers | Single |  |
-| 09:30–10:00 | 30 min | Invited Speaker | Single |  |
-| 10:00–11:30 | 90 min | Beyond Interoperability: Hands-On Federated ML for Research Data Curation Infrastructure | Arnab Mukherjee | Workshop |
-| 11:45–12:05 | 20 min | The RCP Discovery Internship Program: Building a Global Innovation Lab for Research Software | Rowland Mosbergen | Presentation |
-| 12:05–12:25 | 20 min | https://www.linkedin.com/in/emmanuel-ugwu-b58b80223 | Ugwu Nnamdi Emmanuel | Presentation |
-| 12:25–12:40 | 15 min | From Contributor to Maintainer: Growing Community‑Led Open Source Research Software in Africa | Fuad ALIPHATIC Adegoke | Demo/Showcase |
-| 12:40–13:00 | 20 min | Community Is Infrastructure Too: Building Research Software Capacity Through Bioinformatics Training in Africa | Chioma B. Oselu | Presentation |
+| 09:00–09:30 | 30 min | [Conference Organisers](#paper-200) | Single |  |
+| 09:30–10:00 | 30 min | [Invited Speaker](#paper-201) | Single |  |
+| 10:00–11:30 | 90 min | [Beyond Interoperability: Hands-On Federated ML for Research Data Curation Infrastructure](#paper-104) | Arnab Mukherjee | Workshop |
+| 11:45–12:05 | 20 min | [The RCP Discovery Internship Program: Building a Global Innovation Lab for Research Software](#paper-4) | Rowland Mosbergen | Presentation |
+| 12:05–12:25 | 20 min | [https://www.linkedin.com/in/emmanuel-ugwu-b58b80223](#paper-9) | Ugwu Nnamdi Emmanuel | Presentation |
+| 12:25–12:40 | 15 min | [From Contributor to Maintainer: Growing Community‑Led Open Source Research Software in Africa](#paper-10) | Fuad ALIPHATIC Adegoke | Demo/Showcase |
+| 12:40–13:00 | 20 min | [Community Is Infrastructure Too: Building Research Software Capacity Through Bioinformatics Training in Africa](#paper-21) | Chioma B. Oselu | Presentation |
 
 ### Presentation Details
 
-#### . Title: Conference Organisers
+#### . Title: Conference Organisers {#paper-200}
 
 **Presenter Name**: Single
 
 ---
 
-#### . Title: Invited Speaker
+#### . Title: Invited Speaker {#paper-201}
 
 **Presenter Name**: Single
 
 ---
 
-#### Workshop. Title: Beyond Interoperability: Hands-On Federated ML for Research Data Curation Infrastructure
+#### Workshop. Title: Beyond Interoperability: Hands-On Federated ML for Research Data Curation Infrastructure {#paper-104}
 
 **Presenter Name**: Arnab Mukherjee
 
@@ -55,7 +55,7 @@ All times in this program are displayed in **South African Standard Time (SAST) 
 
 ---
 
-#### Presentation. Title: The RCP Discovery Internship Program: Building a Global Innovation Lab for Research Software
+#### Presentation. Title: The RCP Discovery Internship Program: Building a Global Innovation Lab for Research Software {#paper-4}
 
 **Presenter Name**: Rowland Mosbergen
 
@@ -85,7 +85,7 @@ We also highlight how this program has created a new effective methodology for t
 
 ---
 
-#### Presentation. Title: https://www.linkedin.com/in/emmanuel-ugwu-b58b80223
+#### Presentation. Title: https://www.linkedin.com/in/emmanuel-ugwu-b58b80223 {#paper-9}
 
 **Presenter Name**: Ugwu Nnamdi Emmanuel
 
@@ -127,7 +127,7 @@ At its core, this talk connects to “Research Software Without Borders” by sh
 
 ---
 
-#### Demo/Showcase. Title: From Contributor to Maintainer: Growing Community‑Led Open Source Research Software in Africa
+#### Demo/Showcase. Title: From Contributor to Maintainer: Growing Community‑Led Open Source Research Software in Africa {#paper-10}
 
 **Presenter Name**: Fuad ALIPHATIC Adegoke
 
@@ -145,7 +145,7 @@ Rather than focusing on a single project, this talk will highlight reusable patt
 
 ---
 
-#### Presentation. Title: Community Is Infrastructure Too: Building Research Software Capacity Through Bioinformatics Training in Africa
+#### Presentation. Title: Community Is Infrastructure Too: Building Research Software Capacity Through Bioinformatics Training in Africa {#paper-21}
 
 **Presenter Name**: Chioma B. Oselu
 
@@ -167,30 +167,30 @@ This presentation will share practical lessons for designing inclusive training 
 
 | Time | Length | Session Title / Presentation | Presenter(s) | Type |
 |---|---|---|---|---|
-| 09:00–09:30 | 30 min | Conference Organisers | Single |  |
-| 09:30–10:15 | 45 min | The only way to play the game is to change the rules; the RSSE Africa journey | Anelda van der Walt | Keynote |
-| 10:15–10:35 | 20 min | Doing Science in the Age of AI, when the system isn’t built for you | Seun Olufemi | Presentation |
-| 10:35–10:55 | 20 min | Failure Prediction in AI Agent Pipelines: A Shift Toward More Reliable Research Automation | Faith Sodipe | Presentation |
-| 10:55–11:15 | 20 min | Governing Artificial Intelligence in Research Software Engineering | Samuel Simango | Presentation |
-| 11:15–11:35 | 20 min | Developing AI Guidelines for Infrastructure-as-a-Service Platforms | Binjamin Barsch | Presentation |
-| 11:35–11:50 | 15 min | A demonstration of an interpretive approach to machine learning with Orange Data Mining | Dr Alette Schoon | Demo/Showcase |
-| 12:05–12:20 | 15 min | Cleantweet: Pushing the Boundaries of NLP and Datamining for AI Access in Africa. | Lare Adeola | Demo/Showcase |
-| 12:20–12:30 | 10 min | The eLwazi (DSI) Platform: AI-Assisted Data Harmonization and Metadata Curation for Multi-Site Health Research in Africa | Lyndon Zass | Presentation |
-| 12:30–12:50 | 20 min | REDMANE: A Lightweight Ecosystem for Research Data Management Across Organisations and Diverse Data Types | Rowland Mosbergen | Presentation |
-| 12:50–13:05 | 15 min | R-Universe: Building Open Ecosystems for Research Software in R | Yanina Bellini Saibene | Demo/Showcase |
-| 13:05–13:25 | 20 min | The African Genomics Medicine Portal (AGMP): A Web Portal dedicated to African-ancestry genomics information | Kais Ghedira | Presentation |
-| 13:25–13:40 | 15 min | Alleviating Food Crisis Through Price Visibility | Mfonobong Emmanuel Uyah & Oluwapelumi Blessing Odetayo | Demo/Showcase |
-| 13:25–13:35 | 10 min | The African Genomics Data Hub: increasing accessibility of African genomic data | Lyndon Zass | Presentation |
+| 09:00–09:30 | 30 min | [Conference Organisers](#paper-202) | Single |  |
+| 09:30–10:15 | 45 min | [The only way to play the game is to change the rules; the RSSE Africa journey](#paper-100) | Anelda van der Walt | Keynote |
+| 10:15–10:35 | 20 min | [Doing Science in the Age of AI, when the system isn’t built for you](#paper-6) | Seun Olufemi | Presentation |
+| 10:35–10:55 | 20 min | [Failure Prediction in AI Agent Pipelines: A Shift Toward More Reliable Research Automation](#paper-22) | Faith Sodipe | Presentation |
+| 10:55–11:15 | 20 min | [Governing Artificial Intelligence in Research Software Engineering](#paper-36) | Samuel Simango | Presentation |
+| 11:15–11:35 | 20 min | [Developing AI Guidelines for Infrastructure-as-a-Service Platforms](#paper-14) | Binjamin Barsch | Presentation |
+| 11:35–11:50 | 15 min | [A demonstration of an interpretive approach to machine learning with Orange Data Mining](#paper-23) | Dr Alette Schoon | Demo/Showcase |
+| 12:05–12:20 | 15 min | [Cleantweet: Pushing the Boundaries of NLP and Datamining for AI Access in Africa.](#paper-29) | Lare Adeola | Demo/Showcase |
+| 12:20–12:30 | 10 min | [The eLwazi (DSI) Platform: AI-Assisted Data Harmonization and Metadata Curation for Multi-Site Health Research in Africa](#paper-31) | Lyndon Zass | Presentation |
+| 12:30–12:50 | 20 min | [REDMANE: A Lightweight Ecosystem for Research Data Management Across Organisations and Diverse Data Types](#paper-5) | Rowland Mosbergen | Presentation |
+| 12:50–13:05 | 15 min | [R-Universe: Building Open Ecosystems for Research Software in R](#paper-16) | Yanina Bellini Saibene | Demo/Showcase |
+| 13:05–13:25 | 20 min | [The African Genomics Medicine Portal (AGMP): A Web Portal dedicated to African-ancestry genomics information](#paper-28) | Kais Ghedira | Presentation |
+| 13:25–13:40 | 15 min | [Alleviating Food Crisis Through Price Visibility](#paper-24) | Mfonobong Emmanuel Uyah & Oluwapelumi Blessing Odetayo | Demo/Showcase |
+| 13:25–13:35 | 10 min | [The African Genomics Data Hub: increasing accessibility of African genomic data](#paper-32) | Lyndon Zass | Presentation |
 
 ### Presentation Details
 
-#### . Title: Conference Organisers
+#### . Title: Conference Organisers {#paper-202}
 
 **Presenter Name**: Single
 
 ---
 
-#### Keynote. Title: The only way to play the game is to change the rules; the RSSE Africa journey
+#### Keynote. Title: The only way to play the game is to change the rules; the RSSE Africa journey {#paper-100}
 
 **Presenter Name**: Anelda van der Walt
 
@@ -198,7 +198,7 @@ This presentation will share practical lessons for designing inclusive training 
 
 ---
 
-#### Presentation. Title: Doing Science in the Age of AI, when the system isn’t built for you
+#### Presentation. Title: Doing Science in the Age of AI, when the system isn’t built for you {#paper-6}
 
 **Presenter Name**: Seun Olufemi
 
@@ -220,7 +220,7 @@ Here is the full article: https://doi.org/10.54900/69s4r-kd236
 
 ---
 
-#### Presentation. Title: Failure Prediction in AI Agent Pipelines: A Shift Toward More Reliable Research Automation
+#### Presentation. Title: Failure Prediction in AI Agent Pipelines: A Shift Toward More Reliable Research Automation {#paper-22}
 
 **Presenter Name**: Faith Sodipe
 
@@ -254,7 +254,7 @@ This session is for engineers and researchers who are either already running AI 
 
 ---
 
-#### Presentation. Title: Governing Artificial Intelligence in Research Software Engineering
+#### Presentation. Title: Governing Artificial Intelligence in Research Software Engineering {#paper-36}
 
 **Presenter Name**: Samuel Simango
 
@@ -284,7 +284,7 @@ Specifically, this session details how the compliance checklist operationalises 
 
 ---
 
-#### Presentation. Title: Developing AI Guidelines for Infrastructure-as-a-Service Platforms
+#### Presentation. Title: Developing AI Guidelines for Infrastructure-as-a-Service Platforms {#paper-14}
 
 **Presenter Name**: Binjamin Barsch
 
@@ -318,7 +318,7 @@ Participants will gain an understanding of the operational risks associated with
 
 ---
 
-#### Demo/Showcase. Title: A demonstration of an interpretive approach to machine learning with Orange Data Mining
+#### Demo/Showcase. Title: A demonstration of an interpretive approach to machine learning with Orange Data Mining {#paper-23}
 
 **Presenter Name**: Dr Alette Schoon
 
@@ -328,7 +328,7 @@ Participants will gain an understanding of the operational risks associated with
 
 ---
 
-#### Demo/Showcase. Title: Cleantweet: Pushing the Boundaries of NLP and Datamining for AI Access in Africa.
+#### Demo/Showcase. Title: Cleantweet: Pushing the Boundaries of NLP and Datamining for AI Access in Africa. {#paper-29}
 
 **Presenter Name**: Lare Adeola
 
@@ -342,7 +342,7 @@ The purpose of cleantweet is to create a NLP tool for africans that can be used 
 
 ---
 
-#### Presentation. Title: The eLwazi (DSI) Platform: AI-Assisted Data Harmonization and Metadata Curation for Multi-Site Health Research in Africa
+#### Presentation. Title: The eLwazi (DSI) Platform: AI-Assisted Data Harmonization and Metadata Curation for Multi-Site Health Research in Africa {#paper-31}
 
 **Presenter Name**: Lyndon Zass
 
@@ -352,7 +352,7 @@ The purpose of cleantweet is to create a NLP tool for africans that can be used 
 
 ---
 
-#### Presentation. Title: REDMANE: A Lightweight Ecosystem for Research Data Management Across Organisations and Diverse Data Types
+#### Presentation. Title: REDMANE: A Lightweight Ecosystem for Research Data Management Across Organisations and Diverse Data Types {#paper-5}
 
 **Presenter Name**: Rowland Mosbergen
 
@@ -386,7 +386,7 @@ By aligning technical capability with real researcher needs, REDMANE demonstrate
 
 ---
 
-#### Demo/Showcase. Title: R-Universe: Building Open Ecosystems for Research Software in R
+#### Demo/Showcase. Title: R-Universe: Building Open Ecosystems for Research Software in R {#paper-16}
 
 **Presenter Name**: Yanina Bellini Saibene
 
@@ -402,7 +402,7 @@ This session is aimed at package developers, maintainers, and anyone interested 
 
 ---
 
-#### Presentation. Title: The African Genomics Medicine Portal (AGMP): A Web Portal dedicated to African-ancestry genomics information
+#### Presentation. Title: The African Genomics Medicine Portal (AGMP): A Web Portal dedicated to African-ancestry genomics information {#paper-28}
 
 **Presenter Name**: Kais Ghedira
 
@@ -416,7 +416,7 @@ and PHINDaccess (H2020). He played a key role in SARS-CoV-2 genomic surveillance
 
 ---
 
-#### Demo/Showcase. Title: Alleviating Food Crisis Through Price Visibility
+#### Demo/Showcase. Title: Alleviating Food Crisis Through Price Visibility {#paper-24}
 
 **Presenter Name**: Mfonobong Emmanuel Uyah & Oluwapelumi Blessing Odetayo
 
@@ -436,7 +436,7 @@ This 10-minute product demo will showcase our product and our approach to reduci
 
 ---
 
-#### Presentation. Title: The African Genomics Data Hub: increasing accessibility of African genomic data
+#### Presentation. Title: The African Genomics Data Hub: increasing accessibility of African genomic data {#paper-32}
 
 **Presenter Name**: Lyndon Zass
 
@@ -454,28 +454,28 @@ This 10-minute product demo will showcase our product and our approach to reduci
 
 | Time | Length | Session Title / Presentation | Presenter(s) | Type |
 |---|---|---|---|---|
-| 09:00–09:10 | 10 min | Conference Organisers | Single |  |
-| 09:10–09:30 | 20 min | Building Reproducible Genomic Analysis Pipelines for Enterococcus Surveillance in Resource-Constrained Research Environments | Bill Clinton Aglomasa | Presentation |
-| 09:30–09:50 | 20 min | Open Source Is Infrastructure: Why We Must Treat It That Way | Gertrude Abagale | Presentation |
-| 09:50–10:10 | 20 min | Open Science and Reproducibility: Strengthening Research Practices in Africa | Precious Onyewuchi | Presentation |
-| 10:10–10:25 | 15 min | Automating AMR Surveillance; A Resource-Efficient Pipeline for Genomic Discovery in Kenya | Ogoti Duncan Mogire & University of Kabianga / American Society for Microbiology (ASM) | Demo/Showcase |
-| 10:25–10:40 | 15 min | Stellar: An Offline-First Humanities Research Workbench for Citation, Qualitative Analysis, and Knowledge Graphs | Midori Tamura | Demo/Showcase |
-| 10:55–11:15 | 20 min | I Didn't Know I Could: Barriers to Research for Adults in Underrepresented Communities and the Organisations Already Closing the Gap | Olushola Ogunkelu | Presentation |
-| 11:15–11:35 | 20 min | No Lab, No Lecture Hall: Teaching Research Software Beyond the Institution | Adejumo Adefisayo | Presentation |
-| 11:35–11:55 | 20 min | Meta-valuation: A Self-Referential Mechanism for Valuing Diverse Research Contributions | Dr Cooper Smout | Presentation |
-| 11:55–12:15 | 20 min | On Building a Sustainable Research Software and HPC Training Pipeline in West Africa | JAMES AFFUL | Presentation |
-| 12:30–12:45 | 15 min | Building Standardised Phenotype Data Collection Toolkits for African Research | Katherine Elizabeth Johnston | Demo/Showcase |
-| 12:45–13:00 | 15 min | Create Mobile Data Collection Applications | Benson Muite | Demo/Showcase |
+| 09:00–09:10 | 10 min | [Conference Organisers](#paper-203) | Single |  |
+| 09:10–09:30 | 20 min | [Building Reproducible Genomic Analysis Pipelines for Enterococcus Surveillance in Resource-Constrained Research Environments](#paper-13) | Bill Clinton Aglomasa | Presentation |
+| 09:30–09:50 | 20 min | [Open Source Is Infrastructure: Why We Must Treat It That Way](#paper-27) | Gertrude Abagale | Presentation |
+| 09:50–10:10 | 20 min | [Open Science and Reproducibility: Strengthening Research Practices in Africa](#paper-37) | Precious Onyewuchi | Presentation |
+| 10:10–10:25 | 15 min | [Automating AMR Surveillance; A Resource-Efficient Pipeline for Genomic Discovery in Kenya](#paper-8) | Ogoti Duncan Mogire & University of Kabianga / American Society for Microbiology (ASM) | Demo/Showcase |
+| 10:25–10:40 | 15 min | [Stellar: An Offline-First Humanities Research Workbench for Citation, Qualitative Analysis, and Knowledge Graphs](#paper-15) | Midori Tamura | Demo/Showcase |
+| 10:55–11:15 | 20 min | [I Didn't Know I Could: Barriers to Research for Adults in Underrepresented Communities and the Organisations Already Closing the Gap](#paper-7) | Olushola Ogunkelu | Presentation |
+| 11:15–11:35 | 20 min | [No Lab, No Lecture Hall: Teaching Research Software Beyond the Institution](#paper-17) | Adejumo Adefisayo | Presentation |
+| 11:35–11:55 | 20 min | [Meta-valuation: A Self-Referential Mechanism for Valuing Diverse Research Contributions](#paper-18) | Dr Cooper Smout | Presentation |
+| 11:55–12:15 | 20 min | [On Building a Sustainable Research Software and HPC Training Pipeline in West Africa](#paper-35) | JAMES AFFUL | Presentation |
+| 12:30–12:45 | 15 min | [Building Standardised Phenotype Data Collection Toolkits for African Research](#paper-26) | Katherine Elizabeth Johnston | Demo/Showcase |
+| 12:45–13:00 | 15 min | [Create Mobile Data Collection Applications](#paper-25) | Benson Muite | Demo/Showcase |
 
 #### Presentation Details
 
-##### . Title: Conference Organisers
+##### . Title: Conference Organisers {#paper-203}
 
 **Presenter Name**: Single
 
 ---
 
-##### Presentation. Title: Building Reproducible Genomic Analysis Pipelines for Enterococcus Surveillance in Resource-Constrained Research Environments
+##### Presentation. Title: Building Reproducible Genomic Analysis Pipelines for Enterococcus Surveillance in Resource-Constrained Research Environments {#paper-13}
 
 **Presenter Name**: Bill Clinton Aglomasa
 
@@ -499,7 +499,7 @@ The presentation highlights practical lessons in workflow design, including repr
 
 ---
 
-##### Presentation. Title: Open Source Is Infrastructure: Why We Must Treat It That Way
+##### Presentation. Title: Open Source Is Infrastructure: Why We Must Treat It That Way {#paper-27}
 
 **Presenter Name**: Gertrude Abagale
 
@@ -513,7 +513,7 @@ Beyond her professional work, Gertrude actively contributes to the Python and op
 
 ---
 
-##### Presentation. Title: Open Science and Reproducibility: Strengthening Research Practices in Africa
+##### Presentation. Title: Open Science and Reproducibility: Strengthening Research Practices in Africa {#paper-37}
 
 **Presenter Name**: Precious Onyewuchi
 
@@ -555,7 +555,7 @@ The talk will reference materials from The Turing Way (https://book.the-turing-w
 
 ---
 
-##### Demo/Showcase. Title: Automating AMR Surveillance; A Resource-Efficient Pipeline for Genomic Discovery in Kenya
+##### Demo/Showcase. Title: Automating AMR Surveillance; A Resource-Efficient Pipeline for Genomic Discovery in Kenya {#paper-8}
 
 **Presenter Name**: Ogoti Duncan Mogire & University of Kabianga / American Society for Microbiology (ASM)
 
@@ -567,7 +567,7 @@ Leveraging open-source Linux/Bash scripting and R-based visualization, this show
 
 ---
 
-##### Demo/Showcase. Title: Stellar: An Offline-First Humanities Research Workbench for Citation, Qualitative Analysis, and Knowledge Graphs
+##### Demo/Showcase. Title: Stellar: An Offline-First Humanities Research Workbench for Citation, Qualitative Analysis, and Knowledge Graphs {#paper-15}
 
 **Presenter Name**: Midori Tamura
 
@@ -587,7 +587,7 @@ The session argues that offline-first research software is not only a technical 
 
 ---
 
-##### Presentation. Title: I Didn't Know I Could: Barriers to Research for Adults in Underrepresented Communities and the Organisations Already Closing the Gap
+##### Presentation. Title: I Didn't Know I Could: Barriers to Research for Adults in Underrepresented Communities and the Organisations Already Closing the Gap {#paper-7}
 
 **Presenter Name**: Olushola Ogunkelu
 
@@ -621,7 +621,7 @@ The session ends with an honest reflection and an open invitation: what would it
 
 ---
 
-##### Presentation. Title: No Lab, No Lecture Hall: Teaching Research Software Beyond the Institution
+##### Presentation. Title: No Lab, No Lecture Hall: Teaching Research Software Beyond the Institution {#paper-17}
 
 **Presenter Name**: Adejumo Adefisayo
 
@@ -639,7 +639,7 @@ Community programmes are not a stepping stone to real RSE training. They are a m
 
 ---
 
-##### Presentation. Title: Meta-valuation: A Self-Referential Mechanism for Valuing Diverse Research Contributions
+##### Presentation. Title: Meta-valuation: A Self-Referential Mechanism for Valuing Diverse Research Contributions {#paper-18}
 
 **Presenter Name**: Dr Cooper Smout
 
@@ -657,7 +657,7 @@ Next, I'll present theory on how the mechanism can address collective action pro
 
 ---
 
-##### Presentation. Title: On Building a Sustainable Research Software and HPC Training Pipeline in West Africa
+##### Presentation. Title: On Building a Sustainable Research Software and HPC Training Pipeline in West Africa {#paper-35}
 
 **Presenter Name**: JAMES AFFUL
 
@@ -675,7 +675,7 @@ By analyzing the deployment, assessment strategies, and infrastructure partnersh
 
 ---
 
-##### Demo/Showcase. Title: Building Standardised Phenotype Data Collection Toolkits for African Research
+##### Demo/Showcase. Title: Building Standardised Phenotype Data Collection Toolkits for African Research {#paper-26}
 
 **Presenter Name**: Katherine Elizabeth Johnston
 
@@ -687,7 +687,7 @@ Modern biomedical research is characterised by its high-throughput and interdisc
 
 ---
 
-##### Demo/Showcase. Title: Create Mobile Data Collection Applications
+##### Demo/Showcase. Title: Create Mobile Data Collection Applications {#paper-25}
 
 **Presenter Name**: Benson Muite
 
@@ -705,32 +705,32 @@ Developing mobile phone applications can be challenging and LambdaNative is a fr
 
 | Time | Length | Session Title / Presentation | Presenter(s) | Type |
 |---|---|---|---|---|
-| 09:00–09:10 | 10 min | Conference Organisers | Single |  |
-| 09:10–10:10 | 60 min | AI Sustainability Day panel session 1 - Ethics, Decent Work, and "Fair Trade" AI |  | Panel |
-| 10:25–11:25 | 60 min | AI Sustainability Day panel session 1 - Environmental Impacts of Generative AI |  | Panel |
-| 11:40–12:40 | 60 min | AI Sustainability Day panel session 1 - Platform Decay, Copyrights, and Bias |  | Panel |
+| 09:00–09:10 | 10 min | [Conference Organisers](#paper-204) | Single |  |
+| 09:10–10:10 | 60 min | [AI Sustainability Day panel session 1 - Ethics, Decent Work, and "Fair Trade" AI](#paper-101) |  | Panel |
+| 10:25–11:25 | 60 min | [AI Sustainability Day panel session 1 - Environmental Impacts of Generative AI](#paper-102) |  | Panel |
+| 11:40–12:40 | 60 min | [AI Sustainability Day panel session 1 - Platform Decay, Copyrights, and Bias](#paper-103) |  | Panel |
 
 #### Presentation Details
 
-##### . Title: Conference Organisers
+##### . Title: Conference Organisers {#paper-204}
 
 **Presenter Name**: Single
 
 ---
 
-##### Panel. Title: AI Sustainability Day panel session 1 - Ethics, Decent Work, and "Fair Trade" AI
+##### Panel. Title: AI Sustainability Day panel session 1 - Ethics, Decent Work, and "Fair Trade" AI {#paper-101}
 
 **Abstract**: AI has been called “African Intelligence” because of the outsourcing of data labelling to Africa. But we need to encompass AI sustainability more broadly - including green computing considerations as well as potential copyright violations that may present legal challenges. This extends beyond ethics alone. The AI Sustainability Day aims to challenge the assumption that AI is universally beneficial with no drawbacks. We want to push back against this narrative to enable more informed decision-making.
 
 ---
 
-##### Panel. Title: AI Sustainability Day panel session 1 - Environmental Impacts of Generative AI
+##### Panel. Title: AI Sustainability Day panel session 1 - Environmental Impacts of Generative AI {#paper-102}
 
 **Abstract**: AI has been called “African Intelligence” because of the outsourcing of data labelling to Africa. But we need to encompass AI sustainability more broadly - including green computing considerations as well as potential copyright violations that may present legal challenges. This extends beyond ethics alone. The AI Sustainability Day aims to challenge the assumption that AI is universally beneficial with no drawbacks. We want to push back against this narrative to enable more informed decision-making.
 
 ---
 
-##### Panel. Title: AI Sustainability Day panel session 1 - Platform Decay, Copyrights, and Bias
+##### Panel. Title: AI Sustainability Day panel session 1 - Platform Decay, Copyrights, and Bias {#paper-103}
 
 **Abstract**: AI has been called “African Intelligence” because of the outsourcing of data labelling to Africa. But we need to encompass AI sustainability more broadly - including green computing considerations as well as potential copyright violations that may present legal challenges. This extends beyond ethics alone. The AI Sustainability Day aims to challenge the assumption that AI is universally beneficial with no drawbacks. We want to push back against this narrative to enable more informed decision-making.
 
@@ -742,24 +742,24 @@ Developing mobile phone applications can be challenging and LambdaNative is a fr
 
 | Time | Length | Session Title / Presentation | Presenter(s) | Type |
 |---|---|---|---|---|
-| 09:00–09:10 | 10 min | Conference Organisers | Single |  |
-| 09:10–10:00 | 50 min | The SSI Fellowship Without Borders: What Would Work, and What Would Not | Oscar Seip (SSI/University of Manchester) & Deborah Udoh (EMBL) & Anelda van der Walt (University of Cape Town) | Panel |
-| 10:00–10:10 | 10 min | Wrong Search, Right Career: Rethinking How We Attract Research Infrastructure Engineers | Ijeoma Ezika | Presentation |
-| 10:10–10:20 | 10 min | Training the Trainers: Community-Led Bioinformatics Training with Bioconductor Across Africa | Laurah Nyasita Ondari | Presentation |
-| 10:20–10:30 | 10 min | Got a Data Challenge? There's a Global Community for That: An Introduction to the Research Data Alliance (RDA) | Trish Radotic | Presentation |
-| 10:45–10:55 | 10 min | Bridging the Gap: Practical Approaches to Reproducible Bioinformatics Workflows in Low-Resource Settings | Lilian Oluchi Nwagbara | Presentation |
-| 11:30–13:00 | 90 min | Meta-valuation Across Borders: A Cross-Community Experiment in Valuing Diverse Research Contributions | Dr Cooper Smout | Workshop |
-| 13:00–13:30 | 30 min | Conference Organisers |  |  |
+| 09:00–09:10 | 10 min | [Conference Organisers](#paper-205) | Single |  |
+| 09:10–10:00 | 50 min | [The SSI Fellowship Without Borders: What Would Work, and What Would Not](#paper-33) | Oscar Seip (SSI/University of Manchester) & Deborah Udoh (EMBL) & Anelda van der Walt (University of Cape Town) | Panel |
+| 10:00–10:10 | 10 min | [Wrong Search, Right Career: Rethinking How We Attract Research Infrastructure Engineers](#paper-34) | Ijeoma Ezika | Presentation |
+| 10:10–10:20 | 10 min | [Training the Trainers: Community-Led Bioinformatics Training with Bioconductor Across Africa](#paper-11) | Laurah Nyasita Ondari | Presentation |
+| 10:20–10:30 | 10 min | [Got a Data Challenge? There's a Global Community for That: An Introduction to the Research Data Alliance (RDA)](#paper-12) | Trish Radotic | Presentation |
+| 10:45–10:55 | 10 min | [Bridging the Gap: Practical Approaches to Reproducible Bioinformatics Workflows in Low-Resource Settings](#paper-30) | Lilian Oluchi Nwagbara | Presentation |
+| 11:30–13:00 | 90 min | [Meta-valuation Across Borders: A Cross-Community Experiment in Valuing Diverse Research Contributions](#paper-19) | Dr Cooper Smout | Workshop |
+| 13:00–13:30 | 30 min | [Conference Organisers](#paper-206) |  |  |
 
 ### Presentation Details
 
-#### . Title: Conference Organisers
+#### . Title: Conference Organisers {#paper-205}
 
 **Presenter Name**: Single
 
 ---
 
-#### Panel. Title: The SSI Fellowship Without Borders: What Would Work, and What Would Not
+#### Panel. Title: The SSI Fellowship Without Borders: What Would Work, and What Would Not {#paper-33}
 
 **Presenter Name**: Oscar Seip (SSI/University of Manchester) & Deborah Udoh (EMBL) & Anelda van der Walt (University of Cape Town)
 
@@ -789,7 +789,7 @@ Ultimately, the session shares lessons learned from the SSI Fellowship and offer
 
 ---
 
-#### Presentation. Title: Wrong Search, Right Career: Rethinking How We Attract Research Infrastructure Engineers
+#### Presentation. Title: Wrong Search, Right Career: Rethinking How We Attract Research Infrastructure Engineers {#paper-34}
 
 **Presenter Name**: Ijeoma Ezika
 
@@ -815,7 +815,7 @@ This talk presents the evidence, situates it within what the literature tells us
 
 ---
 
-#### Presentation. Title: Training the Trainers: Community-Led Bioinformatics Training with Bioconductor Across Africa
+#### Presentation. Title: Training the Trainers: Community-Led Bioinformatics Training with Bioconductor Across Africa {#paper-11}
 
 **Presenter Name**: Laurah Nyasita Ondari
 
@@ -849,7 +849,7 @@ These approaches may also be useful for similar capacity-building efforts in oth
 
 ---
 
-#### Presentation. Title: Got a Data Challenge? There's a Global Community for That: An Introduction to the Research Data Alliance (RDA)
+#### Presentation. Title: Got a Data Challenge? There's a Global Community for That: An Introduction to the Research Data Alliance (RDA) {#paper-12}
 
 **Presenter Name**: Trish Radotic
 
@@ -871,7 +871,7 @@ Her interests include open research, AI, and fostering global collaboration thro
 
 ---
 
-#### Presentation. Title: Bridging the Gap: Practical Approaches to Reproducible Bioinformatics Workflows in Low-Resource Settings
+#### Presentation. Title: Bridging the Gap: Practical Approaches to Reproducible Bioinformatics Workflows in Low-Resource Settings {#paper-30}
 
 **Presenter Name**: Lilian Oluchi Nwagbara
 
@@ -885,7 +885,7 @@ Comparing these strategies shifts the focus of bioinformatics research reproduci
 
 ---
 
-#### Workshop. Title: Meta-valuation Across Borders: A Cross-Community Experiment in Valuing Diverse Research Contributions
+#### Workshop. Title: Meta-valuation Across Borders: A Cross-Community Experiment in Valuing Diverse Research Contributions {#paper-19}
 
 **Presenter Name**: Dr Cooper Smout
 
@@ -907,7 +907,7 @@ We'll close by celebrating the key contributors our data suggests made each conf
 
 ---
 
-#### . Title: Conference Organisers
+#### . Title: Conference Organisers {#paper-206}
 
 **Abstract**: Research Software Without Borders -> Community and Collaboration
 
