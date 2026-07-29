@@ -740,11 +740,11 @@ Developing mobile phone applications can be challenging and LambdaNative is a fr
 
 ### Track B
 
-#### Track B Orientation & Overview
+#### Day 3 Welcome and Track Announcements
 
 | Time | Length | Presentation | Presenter(s) | Type |
 |---|---|---|---|---|
-| 09:00–09:10 | 10 min | [Day 3 Track B Welcoming Session](#paper-204) | Conference Organisers | Welcoming |
+| 09:00–09:10 | 10 min | [Day 3 Joint Welcoming Session](#paper-204) | Conference Organisers | Welcoming |
 
 #### AI Sustainability Day Panel 1
 
@@ -766,7 +766,7 @@ Developing mobile phone applications can be challenging and LambdaNative is a fr
 
 #### Presentation Details
 
-##### Welcoming. Title: Day 3 Track B Welcoming Session {#paper-204}
+##### Welcoming. Title: Day 3 Joint Welcoming Session {#paper-204}
 
 **Presenter Name**: Conference Organisers
 
