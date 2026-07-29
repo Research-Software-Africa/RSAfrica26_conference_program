@@ -23,8 +23,8 @@ All times in this program are displayed in **South African Standard Time (SAST) 
 
 | Time | Length | Session Title / Presentation | Presenter(s) | Type |
 |---|---|---|---|---|
-| 09:00–09:30 | 30 min | [Conference Organisers](#paper-200) | Single |  |
-| 09:30–10:00 | 30 min | [Invited Speaker](#paper-201) | Single |  |
+| 09:00–09:30 | 30 min | [Day 1 Welcoming Session](#paper-200) | Conference Organisers | Welcoming |
+| 09:30–10:00 | 30 min | [Day 1 Opening Plenary Address](#paper-201) | Invited Speaker | Keynote |
 | 10:00–11:30 | 90 min | [Beyond Interoperability: Hands-On Federated ML for Research Data Curation Infrastructure](#paper-104) | Arnab Mukherjee | Workshop |
 | 11:45–12:05 | 20 min | [The RCP Discovery Internship Program: Building a Global Innovation Lab for Research Software](#paper-4) | Rowland Mosbergen | Presentation |
 | 12:05–12:25 | 20 min | [https://www.linkedin.com/in/emmanuel-ugwu-b58b80223](#paper-9) | Ugwu Nnamdi Emmanuel | Presentation |
@@ -33,15 +33,15 @@ All times in this program are displayed in **South African Standard Time (SAST) 
 
 ### Presentation Details
 
-#### . Title: Conference Organisers {#paper-200}
+#### Welcoming. Title: Day 1 Welcoming Session {#paper-200}
 
-**Presenter Name**: Single
+**Presenter Name**: Conference Organisers
 
 ---
 
-#### . Title: Invited Speaker {#paper-201}
+#### Keynote. Title: Day 1 Opening Plenary Address {#paper-201}
 
-**Presenter Name**: Single
+**Presenter Name**: Invited Speaker
 
 ---
 
@@ -167,7 +167,7 @@ This presentation will share practical lessons for designing inclusive training 
 
 | Time | Length | Session Title / Presentation | Presenter(s) | Type |
 |---|---|---|---|---|
-| 09:00–09:30 | 30 min | [Conference Organisers](#paper-202) | Single |  |
+| 09:00–09:30 | 30 min | [Day 2 Welcoming Session](#paper-202) | Conference Organisers | Welcoming |
 | 09:30–10:15 | 45 min | [The only way to play the game is to change the rules; the RSSE Africa journey](#paper-100) | Anelda van der Walt | Keynote |
 | 10:15–10:35 | 20 min | [Doing Science in the Age of AI, when the system isn’t built for you](#paper-6) | Seun Olufemi | Presentation |
 | 10:35–10:55 | 20 min | [Failure Prediction in AI Agent Pipelines: A Shift Toward More Reliable Research Automation](#paper-22) | Faith Sodipe | Presentation |
@@ -184,9 +184,9 @@ This presentation will share practical lessons for designing inclusive training 
 
 ### Presentation Details
 
-#### . Title: Conference Organisers {#paper-202}
+#### Welcoming. Title: Day 2 Welcoming Session {#paper-202}
 
-**Presenter Name**: Single
+**Presenter Name**: Conference Organisers
 
 ---
 
@@ -454,7 +454,7 @@ This 10-minute product demo will showcase our product and our approach to reduci
 
 | Time | Length | Session Title / Presentation | Presenter(s) | Type |
 |---|---|---|---|---|
-| 09:00–09:10 | 10 min | [Conference Organisers](#paper-203) | Single |  |
+| 09:00–09:10 | 10 min | [Day 3 Joint Welcoming Session](#paper-203) | Conference Organisers | Welcoming |
 | 09:10–09:30 | 20 min | [Building Reproducible Genomic Analysis Pipelines for Enterococcus Surveillance in Resource-Constrained Research Environments](#paper-13) | Bill Clinton Aglomasa | Presentation |
 | 09:30–09:50 | 20 min | [Open Source Is Infrastructure: Why We Must Treat It That Way](#paper-27) | Gertrude Abagale | Presentation |
 | 09:50–10:10 | 20 min | [Open Science and Reproducibility: Strengthening Research Practices in Africa](#paper-37) | Precious Onyewuchi | Presentation |
@@ -469,9 +469,9 @@ This 10-minute product demo will showcase our product and our approach to reduci
 
 #### Presentation Details
 
-##### . Title: Conference Organisers {#paper-203}
+##### Welcoming. Title: Day 3 Joint Welcoming Session {#paper-203}
 
-**Presenter Name**: Single
+**Presenter Name**: Conference Organisers
 
 ---
 
@@ -705,20 +705,22 @@ Developing mobile phone applications can be challenging and LambdaNative is a fr
 
 | Time | Length | Session Title / Presentation | Presenter(s) | Type |
 |---|---|---|---|---|
-| 09:00–09:10 | 10 min | [Conference Organisers](#paper-204) | Single |  |
-| 09:10–10:10 | 60 min | [AI Sustainability Day panel session 1 - Ethics, Decent Work, and "Fair Trade" AI](#paper-101) |  | Panel |
-| 10:25–11:25 | 60 min | [AI Sustainability Day panel session 1 - Environmental Impacts of Generative AI](#paper-102) |  | Panel |
-| 11:40–12:40 | 60 min | [AI Sustainability Day panel session 1 - Platform Decay, Copyrights, and Bias](#paper-103) |  | Panel |
+| 09:00–09:10 | 10 min | [Day 3 Track B Welcoming Session](#paper-204) | Conference Organisers | Welcoming |
+| 09:10–10:10 | 60 min | [AI Sustainability Day panel session 1 - Ethics, Decent Work, and "Fair Trade" AI](#paper-101) | TBC | Panel |
+| 10:25–11:25 | 60 min | [AI Sustainability Day panel session 1 - Environmental Impacts of Generative AI](#paper-102) | TBC | Panel |
+| 11:40–12:40 | 60 min | [AI Sustainability Day panel session 1 - Platform Decay, Copyrights, and Bias](#paper-103) | TBC | Panel |
 
 #### Presentation Details
 
-##### . Title: Conference Organisers {#paper-204}
+##### Welcoming. Title: Day 3 Track B Welcoming Session {#paper-204}
 
-**Presenter Name**: Single
+**Presenter Name**: Conference Organisers
 
 ---
 
 ##### Panel. Title: AI Sustainability Day panel session 1 - Ethics, Decent Work, and "Fair Trade" AI {#paper-101}
+
+**Presenter Name**: TBC
 
 **Abstract**: AI has been called “African Intelligence” because of the outsourcing of data labelling to Africa. But we need to encompass AI sustainability more broadly - including green computing considerations as well as potential copyright violations that may present legal challenges. This extends beyond ethics alone. The AI Sustainability Day aims to challenge the assumption that AI is universally beneficial with no drawbacks. We want to push back against this narrative to enable more informed decision-making.
 
@@ -726,13 +728,17 @@ Developing mobile phone applications can be challenging and LambdaNative is a fr
 
 ##### Panel. Title: AI Sustainability Day panel session 1 - Environmental Impacts of Generative AI {#paper-102}
 
-**Abstract**: AI has been called “African Intelligence” because of the outsourcing of data labelling to Africa. But we need to encompass AI sustainability more broadly - including green computing considerations as well as potential copyright violations that may present legal challenges. This extends beyond ethics alone. The AI Sustainability Day aims to challenge the assumption that AI is universally beneficial with no drawbacks. We want to push back against this narrative to enable more informed decision-making.
+**Presenter Name**: TBC
+
+**Abstract**: TBC
 
 ---
 
 ##### Panel. Title: AI Sustainability Day panel session 1 - Platform Decay, Copyrights, and Bias {#paper-103}
 
-**Abstract**: AI has been called “African Intelligence” because of the outsourcing of data labelling to Africa. But we need to encompass AI sustainability more broadly - including green computing considerations as well as potential copyright violations that may present legal challenges. This extends beyond ethics alone. The AI Sustainability Day aims to challenge the assumption that AI is universally beneficial with no drawbacks. We want to push back against this narrative to enable more informed decision-making.
+**Presenter Name**: TBC
+
+**Abstract**: TBC
 
 ---
 
@@ -742,20 +748,20 @@ Developing mobile phone applications can be challenging and LambdaNative is a fr
 
 | Time | Length | Session Title / Presentation | Presenter(s) | Type |
 |---|---|---|---|---|
-| 09:00–09:10 | 10 min | [Conference Organisers](#paper-205) | Single |  |
+| 09:00–09:10 | 10 min | [Day 4 Welcoming Session](#paper-205) | Conference Organisers | Welcoming |
 | 09:10–10:00 | 50 min | [The SSI Fellowship Without Borders: What Would Work, and What Would Not](#paper-33) | Oscar Seip (SSI/University of Manchester) & Deborah Udoh (EMBL) & Anelda van der Walt (University of Cape Town) | Panel |
 | 10:00–10:10 | 10 min | [Wrong Search, Right Career: Rethinking How We Attract Research Infrastructure Engineers](#paper-34) | Ijeoma Ezika | Presentation |
 | 10:10–10:20 | 10 min | [Training the Trainers: Community-Led Bioinformatics Training with Bioconductor Across Africa](#paper-11) | Laurah Nyasita Ondari | Presentation |
 | 10:20–10:30 | 10 min | [Got a Data Challenge? There's a Global Community for That: An Introduction to the Research Data Alliance (RDA)](#paper-12) | Trish Radotic | Presentation |
 | 10:45–10:55 | 10 min | [Bridging the Gap: Practical Approaches to Reproducible Bioinformatics Workflows in Low-Resource Settings](#paper-30) | Lilian Oluchi Nwagbara | Presentation |
 | 11:30–13:00 | 90 min | [Meta-valuation Across Borders: A Cross-Community Experiment in Valuing Diverse Research Contributions](#paper-19) | Dr Cooper Smout | Workshop |
-| 13:00–13:30 | 30 min | [Conference Organisers](#paper-206) |  |  |
+| 13:00–13:30 | 30 min | [Volunteer Debrief & Conference Creation Taskforce](#paper-206) | Conference Organisers | Workshop |
 
 ### Presentation Details
 
-#### . Title: Conference Organisers {#paper-205}
+#### Welcoming. Title: Day 4 Welcoming Session {#paper-205}
 
-**Presenter Name**: Single
+**Presenter Name**: Conference Organisers
 
 ---
 
@@ -907,9 +913,11 @@ We'll close by celebrating the key contributors our data suggests made each conf
 
 ---
 
-#### . Title: Conference Organisers {#paper-206}
+#### Workshop. Title: Volunteer Debrief & Conference Creation Taskforce {#paper-206}
 
-**Abstract**: Research Software Without Borders -> Community and Collaboration
+**Presenter Name**: Conference Organisers
+
+**Abstract**: An interactive, workshop-like debrief session designed to reflect on the process of creating the first Research Software Africa conference. Organisers and attendees will exchange feedback on structural layouts, session design, and operational details, while establishing transparent onboarding pathways to encourage new volunteers and organizers to join the committee for the following year.
 
 ---
 
