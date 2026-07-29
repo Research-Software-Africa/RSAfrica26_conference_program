@@ -470,7 +470,7 @@ This 10-minute product demo will showcase our product and our approach to reduci
 
 ::: {.panel-tabset}
 
-### Track A
+### Track A – Talks and Demos
 
 #### Day 3 Welcome and Track Announcements
 
@@ -738,7 +738,7 @@ Developing mobile phone applications can be challenging and LambdaNative is a fr
 
 ---
 
-### Track B
+### Track B – AI Sustainability Day
 
 #### Day 3 Welcome and Track Announcements
 

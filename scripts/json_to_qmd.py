@@ -117,7 +117,7 @@ All times in this program are displayed in **South African Standard Time (SAST) 
         qmd_content += f"## Day {day} – {day_label}\n\n"
         
         day_items = days_group[day]
-        has_parallel = any(item['TRACK'] in ['Track A', 'Track B'] for item in day_items)
+        has_parallel = any(item['TRACK'] != 'Single' for item in day_items)
 
         if has_parallel:
             # Parallel tracks (Day 3) implemented via native Quarto tabsets
