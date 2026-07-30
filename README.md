@@ -25,7 +25,7 @@ modify/program.csv = file exported from Microsoft CMT (some columns removed, e.g
 
 scripts/csv_to_json.py = converts Microsoft CMT data to json format
 
-output/program.json = file created from CMT export - check diffs for changes to schedule items
+output/program.json = file created from the csv - check diffs for changes to schedule items
 
 scripts/json_to_qmd.py = converts schedule information in json format to qmd for rendering
 
