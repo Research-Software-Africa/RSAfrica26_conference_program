@@ -18,6 +18,7 @@ Process:
 - Copy the output/program.qmd file to the https://github.com/Research-Software-Africa/research-software-africa-org repo
 - GitHub will render the updated conference program at https://www.research-software-africa.org/program.html
 
+*Note the 'unscheduled' modify/program.csv file was first committed to git, then AI was used to provide suggestions for scheduling details; the output/program.json file was generated and committed after each change, allowing edits to be easily reviewed as git diffs (preventing hallucinations, etc).*
 
 ## Files
 
