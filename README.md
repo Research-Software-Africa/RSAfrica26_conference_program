@@ -20,6 +20,12 @@ Process:
 
 *Note the 'unscheduled' modify/program.csv file was first committed to git, then AI was used to provide suggestions for scheduling details; the output/program.json file was generated and committed after each change, allowing edits to be easily reviewed as git diffs (preventing hallucinations, etc).*
 
+
+## Contributing changes / suggestions
+
+Please modify the modify/program.csv file as described... or alternatively open an issue in this repo.
+
+
 ## Files
 
 modify/program.csv = file exported from Microsoft CMT (some columns removed, e.g. email addresses for privacy; some entries added manually) - EDIT THIS FILE TO MAKE CHANGES
